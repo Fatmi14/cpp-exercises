@@ -61,3 +61,10 @@ Working with collections (vector)
 Writing clean and readable C++ code
 
 Applying basic algorithms (average, search)
+
+
+
+
+
+Bonus: Find the student with the highest and lowest grade.
+

@@ -61,7 +61,17 @@ int main() {
     if(!found) {
         std::cout << "Student not found" << std::endl;
     }
-
+int max=students[0].grade;
+int indice_max ={0};
+int min=students[0].grade;
+int indice_min ={0};
+for(int i=1;i<students.size();i++){
+if(students[i].grade>max){ max=students[i].grade;indice_max=i;}
+if(students[i].grade<min) {min=students[i].grade;indice_min=i;}
+}
+std::cout<<"The student: "<<students[indice_max].name<<"has max grade: "<<students[indice_max].grade;<<std::endl;
+std::cout<<"The student: "<<students[indice_min].name<<"has min grade: "<<students[indice_min].grade;
     return 0;
 }
+
 
